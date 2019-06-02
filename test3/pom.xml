@@ -94,8 +94,8 @@
     </pluginRepositories>
 	<distributionManagement>
   	<repository>
-  		<id>maven-repository</id>
-  		<url>file:C:\WINDOWS\system32\config\systemprofile\.m2\repository</url>
+  		<id>cloudhub</id>
+  		<url>https://anypoint.mulesoft.com</url>
   	</repository>
   </distributionManagement>
 
