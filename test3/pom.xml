@@ -33,7 +33,7 @@
 						<username>siri_1234</username>
 						<password>Sanju@1234</password>
 						<applicationName>${project.artifactId}</applicationName>
-						<environment>SANDBOX</environment>
+						<environment>Sandbox</environment>
                                                 <businessGroup>test</businessGroup>
 					</cloudHubDeployment>
 					</configuration>
