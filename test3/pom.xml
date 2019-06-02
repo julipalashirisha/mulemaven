@@ -35,6 +35,9 @@
 						<applicationName>${project.artifactId}</applicationName>
 						<environment>Sandbox</environment>
 					<businessGroup>Master\test</businessGroup>
+					<mule.client.id>40a3aca931954b4790466c18bee46077</mule.client.id>
+				<mule.client.secret>8952b9f155704bd2B7E305A1BB02F682</mule.client.secret>
+
                                                 
 					</cloudHubDeployment>
 					</configuration>
