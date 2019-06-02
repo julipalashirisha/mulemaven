@@ -34,6 +34,7 @@
 						<password>Sanju@1234</password>
 						<applicationName>${project.artifactId}</applicationName>
 						<environment>Sandbox</environment>
+					<businessGroup>Master\test</businessGroup>
                                                 
 					</cloudHubDeployment>
 					</configuration>
