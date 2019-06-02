@@ -32,7 +32,7 @@
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>siri_1234</username>
 						<password>Sanju@1234</password>
-						<applicationName>${project.artifactId}</applicationName>
+						<applicationName>test5</applicationName>
 						<environment>Sandbox</environment>
 					<businessGroup>Master\test</businessGroup>
 					
