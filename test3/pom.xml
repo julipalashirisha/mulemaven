@@ -93,9 +93,9 @@
     </pluginRepositories>
 	<distributionManagement>
     <repository>
-        <id>central</id>
-        <name>NUSLH5CG6497HLW-releases</name>
-        <url>http://localhost:8040/artifactory/libs-release</url>
+        <id>internal</id>
+        <name>internal repo</name>
+        <url>C:\SW\CICD\workspace\mulemavenjob1\test3\target\</url>
     </repository>
 </distributionManagement>
 
