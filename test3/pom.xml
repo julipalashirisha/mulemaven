@@ -26,7 +26,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				</configuration>
+				
 				<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
@@ -34,8 +34,9 @@
 						<password>Sanju@1234</password>
 						<applicationName>${project.artifactId}</applicationName>
 						<environment>SANDBOX</environment>
-<businessGroup>test</businessGroup>
+                                                <businessGroup>test</businessGroup>
 					</cloudHubDeployment>
+					</configuration>
 				<executions>
         <execution>
             <id>deploy</id>
