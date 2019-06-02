@@ -27,6 +27,25 @@
 				<extensions>true</extensions>
 				<configuration>
 				</configuration>
+				<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>${app.runtime}</muleVersion>
+						<username>siri_1234</username>
+						<password>Sanju@1234</password>
+						<applicationName>${project.artifactId}</applicationName>
+						<environment>SANDBOX</environment>
+<businessGroup>test</businessGroup>
+					</cloudHubDeployment>
+				<executions>
+        <execution>
+            <id>deploy</id>
+            <phase>deploy</phase>
+            <goals>
+                <goal>deploy</goal>
+            </goals>
+        </execution>
+    </executions>
+
 			</plugin>
 		</plugins>
 	</build>
