@@ -92,12 +92,10 @@
         </pluginRepository>
     </pluginRepositories>
 	<distributionManagement>
-    <repository>
-        <id>internal</id>
-        <name>internal repo</name>
-        <url>C:\SW\CICD\workspace\mulemavenjob1\test3\target\</url>
-    </repository>
-</distributionManagement>
-
+  	<repository>
+  		<id>maven-repository</id>
+  		<url>file:C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\mycompany</url>
+  	</repository>
+  </distributionManagement>
 
 </project>
