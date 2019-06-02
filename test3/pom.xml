@@ -91,5 +91,13 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>NUSLH5CG6497HLW-releases</name>
+        <url>http://localhost:8040/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
+
 
 </project>
